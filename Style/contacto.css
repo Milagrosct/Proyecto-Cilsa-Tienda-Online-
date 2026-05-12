@@ -1,0 +1,84 @@
+body{
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: linear-gradient(135deg, #800000, #b22222);
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Contenedor */
+.contenedor-formulario{
+    width: 100%;
+    padding: 20px;
+}
+
+/* Caja del formulario */
+.formulario{
+    max-width: 550px;
+    margin: auto;
+
+    background-color: white;
+
+    padding: 40px;
+
+    border-radius: 20px;
+
+    box-shadow: 0px 10px 25px rgba(0,0,0,0.2);
+}
+
+/* Títulos */
+.titulo{
+    text-align: center;
+    color: #800000;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.subtitulo{
+    text-align: center;
+    margin-bottom: 30px;
+    color: #555;
+}
+
+/* Inputs */
+.form-control,
+.form-select{
+    border-radius: 12px;
+    border: 2px solid #ddd;
+    padding: 12px;
+    transition: 0.3s;
+}
+
+/* Focus */
+.form-control:focus,
+.form-select:focus{
+    border-color: #800000;
+    box-shadow: 0 0 10px rgba(128,0,0,0.3);
+}
+
+/* Botón */
+.btn-enviar{
+    background-color: #800000;
+    color: white;
+
+    padding: 12px;
+
+    border-radius: 12px;
+
+    border: none;
+
+    font-size: 18px;
+
+    transition: 0.3s;
+}
+
+.btn-enviar:hover{
+    background-color: #a00000;
+    transform: scale(1.02);
+}
