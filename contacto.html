@@ -4,9 +4,70 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <link rel="stylesheet" href="Style/contacto.css">
+     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
     <title>Contacto</title>
 </head>
+
+    
 <body>
-    <!-- Autor: (Persona 4 - Pagina de contacto: formulario) -->
+
+<div class="contenedor-formulario">
+
+    <div class="formulario">
+
+        <h2 class="titulo">
+            Contactanos
+        </h2>
+
+        <p class="subtitulo">
+            ¿Tenés consultas sobre productos escolares o artículos de cotillón?
+        </p>
+
+        <form>
+
+           <div class="row">
+
+                <div class="col-md-6 mb-3">
+                    <label class="form-label">Nombre</label>
+                    <input type="text" class="form-control" placeholder="Tu nombre" required>
+                </div>
+
+                <div class="col-md-6 mb-3">
+                    <label class="form-label">Correo Electrónico</label>
+                    <input type="email" class="form-control" placeholder="Tu email" required>
+                </div>
+
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Tipo de Consulta</label>
+                <select class="form-select">
+                    <option>Consulta general</option>
+                    <option>Pedido escolar</option>
+                    <option>Cotillón para cumpleaños</option>
+                    <option>Decoración para eventos</option>
+                </select>
+            </div>
+
+            <div class="mb-3">
+    <label class="form-label">Mensaje</label>
+    <textarea class="form-control" rows="5" placeholder="Escribí tu mensaje"></textarea>
+</div>
+
+            <button type="submit" class="btn btn-enviar w-100">
+                Enviar mensaje
+            </button>
+
+            
+        </form>
+
+    </div>
+
+</div>
+
+<script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+
 </body>
+
+
 </html>
