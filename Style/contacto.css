@@ -1,14 +1,11 @@
 body{
     margin: 0;
-    padding: 0;
     min-height: 100vh;
-
     display: flex;
     justify-content: center;
     align-items: center;
 
     background: linear-gradient(135deg, #800000, #b22222);
-
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -18,67 +15,80 @@ body{
     padding: 20px;
 }
 
-/* Caja del formulario */
+/* Card del formulario */
 .formulario{
-    max-width: 550px;
+    max-width: 650px;
     margin: auto;
+    background: white;
+    padding: 35px;
 
-    background-color: white;
+    border-radius: 16px;
+    box-shadow: 0 12px 30px rgba(0,0,0,0.25);
 
-    padding: 40px;
-
-    border-radius: 20px;
-
-    box-shadow: 0px 10px 25px rgba(0,0,0,0.2);
+    text-align: left;
 }
 
-/* Títulos */
+/* Título */
 .titulo{
-    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
     color: #800000;
-    margin-bottom: 10px;
-    font-weight: bold;
+    margin-bottom: 5px;
 }
 
+/* Subtítulo */
 .subtitulo{
-    text-align: center;
-    margin-bottom: 30px;
-    color: #555;
+    color: #666;
+    margin-bottom: 25px;
+    font-size: 15px;
 }
 
-/* Inputs */
+/* Labels */
+.form-label{
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+/* Inputs estilo moderno */
 .form-control,
 .form-select{
-    border-radius: 12px;
-    border: 2px solid #ddd;
-    padding: 12px;
+    border-radius: 10px;
+    border: 1.5px solid #ddd;
+    padding: 10px;
     transition: 0.3s;
 }
 
-/* Focus */
+/* Focus moderno */
 .form-control:focus,
 .form-select:focus{
     border-color: #800000;
-    box-shadow: 0 0 10px rgba(128,0,0,0.3);
+    box-shadow: 0 0 0 3px rgba(128,0,0,0.15);
 }
 
-/* Botón */
+/* Botón estilo ecommerce */
 .btn-enviar{
-    background-color: #800000;
+    background: #800000;
     color: white;
-
-    padding: 12px;
-
-    border-radius: 12px;
-
+    
+    border-radius: 10px;
+    font-weight: bold;
     border: none;
-
-    font-size: 18px;
-
     transition: 0.3s;
+    padding: 8px 16px;   /* antes era más grande */
+    font-size: 14px;     /* texto más chico */
+    width: auto;         /* evita que ocupe todo el ancho */
+    display: inline-block;
+    
 }
-
+.form-label{
+    display: block;
+    margin-bottom: 6px;
+    font-weight: 600;
+}
+textarea.form-control{
+    resize: none;
+}
 .btn-enviar:hover{
-    background-color: #a00000;
-    transform: scale(1.02);
+    background: #a00000;
+    transform: translateY(-2px);
 }
