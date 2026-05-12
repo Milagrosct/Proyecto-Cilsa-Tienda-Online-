@@ -1,0 +1,38 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+
+.carousel img {
+  height: 500px;
+  object-fit: cover;
+}
+
+
+.card {
+  transition: 0.3s;
+}
+
+
+.card:hover {
+  transform: scale(1.03);
+}
+
+#categorias {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #ffffff!important;
+}
+
+.card img{
+    filter: brightness(78%);
+
+              
+}
