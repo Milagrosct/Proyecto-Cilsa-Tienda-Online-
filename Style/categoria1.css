@@ -1,2 +1,9 @@
 
 
+#banner-categoria {
+    background-image: url("../Imagenes/banners/carrousel.png") !important;
+    background-size: cover;
+    background-position: center;
+    
+}
+
