@@ -3,6 +3,13 @@
 
 # 📚 Documentación del Proyecto - Tienda Online Mundo Color
 
+## 👥 Integrantes 
+
+- Rocio Diogenes
+- Milagros Curuchet
+- Leila Galiano
+- Franco Ramirez
+
 ## 📁 Estructura del Proyecto
 
 ```bash
