@@ -38,10 +38,10 @@ body{
 }    
 
 
-.container{
+/* .container{
   text-align: center;
    
-}  
+}   */
 
 .card{
     margin-bottom: 20px;
@@ -64,7 +64,7 @@ body{
 /* footer */
 footer {
   background-color: #5b21b6;
-
+  text-align: left !important;
 }
 
 footer p {
