@@ -146,7 +146,7 @@ También hay un segundo botón de “Agregar al carrito” actualmente no funcio
 
 categoria2.html
 
-Página correspondiente a productos de cotillón.
+Página correspondiente a productos de Artística.
 Mantiene la misma estructura y funcionamiento que categoria1.html.
 
 
