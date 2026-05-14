@@ -1,0 +1,75 @@
+body{
+    background-color: #f8f8f8;
+    font-family: Arial;
+}
+
+
+#navbar {
+  
+  background-color: #8027aa !important;
+}
+
+
+.titulo{
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    color: white;
+    padding: 30px;
+}
+
+.container-banner{
+    position: relative;
+    overflow: hidden;
+    background-color: #000;
+}
+
+.container-banner::before{
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image: url("../Imagenes/banners/descarga.png");
+    background-size: cover;
+    background-position: center;
+    filter: brightness(78%);
+    z-index: 0;
+}
+.row{justify-content: center;
+}    
+
+
+.container{
+  text-align: center;
+   
+}  
+
+.card{
+    margin-bottom: 20px;
+}
+
+.card img{
+    height: 180px;
+    object-fit: cover;
+}
+
+.card-body{
+    text-align: center;
+}
+
+.card-body p{
+    font-weight: bold;
+    color: #2563eb;
+}
+
+/* footer */
+footer {
+  background-color: #5b21b6;
+
+}
+
+footer p {
+
+  color: #ffffff !important;
+}
+
+
