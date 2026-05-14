@@ -10,6 +10,7 @@
 - Leila Galiano
 - Franco Ramirez
 
+
 ## 📁 Estructura del Proyecto
 
 ```bash
@@ -37,9 +38,11 @@
 ```
  ## 📖 Introducción
 
+
 Nuestro proyecto consiste en el desarrollo de una página web responsiva sobre una tienda online llamada Mundo Color, orientada a la venta de artículos de librería y cotillón.
 
 El objetivo es permitir que los usuarios puedan navegar por distintas categorías, visualizar productos y comunicarse con la tienda desde cualquier dispositivo.
+
 
 
 ## 🎯 Objetivos del Proyecto
@@ -51,6 +54,7 @@ El objetivo es permitir que los usuarios puedan navegar por distintas categoría
 - Aplicar control de versiones con Git.
 
 ## 🛠 Tecnologías Utilizadas
+
 
 HTML
 
@@ -68,7 +72,9 @@ Git
 
 Git se utilizó para guardar cambios y trabajar en equipo.
 
+
 ## 👥 Metodología de Trabajo
+
 
 Para la organización y desarrollo del proyecto se utilizó Git junto con GitHub como sistema de control de versiones.
 
@@ -78,6 +84,7 @@ Cada desarrollador trabajó sobre una rama específica según la funcionalidad a
 
 Una vez finalizadas las tareas, los cambios fueron integrados a la rama principal main mediante procesos de merge.
 
+
 ## 🌿 Estructura de Ramas
 
 Rama principal
@@ -86,6 +93,7 @@ main
 Contiene la versión final integrada del proyecto.
 
 Ramas secundarias
+
 - inicio
 - categoria1
 - categoria2
@@ -103,6 +111,7 @@ Contiene la estructura principal del sitio web:
 Barra de navegación.
 
 Contiene:
+
  - Nombre de la tienda
  - Enlaces a las distintas secciones
 - Carrusel principal
@@ -111,6 +120,7 @@ Contiene:
 Sección de categorías
 
 Se divide en:
+
 
 - Librería
 - Cotillón
@@ -122,6 +132,7 @@ Carrusel de productos destacados
 Muestra productos seleccionados mediante cards con imágenes y con botón de agregar al carrito y modal donde muestra la descripción del producto.
 Pie de página
 Contiene descripción del copyright, información general y datos de contacto.
+
 
 ### 2. Categorías de Productos - categoria1.html y categoria2.html
 
@@ -173,17 +184,19 @@ Funcionalidades Implementadas
  ✔ Diseño adaptable. 
 ✔ Efectos hover en tarjetas.
 
+
 ## Problemas encontrados
+
 
 Durante el desarrollo encontramos algunos problemas:
 
-Adaptar imágenes a distintos tamaños.
+- Adaptar imágenes a distintos tamaños.
 
-Organizar correctamente las secciones.
+- Organizar correctamente las secciones.
 
-Hacer que el diseño se vea bien en celular.
+- Hacer que el diseño se vea bien en celular.
 
-Estos problemas se resolvieron utilizando Bootstrap y CSS.
+- Estos problemas se resolvieron utilizando Bootstrap y CSS.
 
 ## Conclusión
 
