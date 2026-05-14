@@ -1,18 +1,23 @@
 body{
     margin: 0;
     min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    background: linear-gradient(135deg, #800000, #b22222);
+    background-image: url("../Imagenes/banners/fondo-contacto.jpg") !important;
+    background-size: cover;
+    background: linear-gradient(135deg, #802c7d, #fee2e2);
     font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+/* navbar */
+#navbar {
+  color: #ffffff !important;
+  background-color: #8027aa !important;
 }
 
 /* Contenedor */
 .contenedor-formulario{
     width: 100%;
-    padding: 20px;
+    padding: 60px;
 }
 
 /* Card del formulario */
@@ -32,7 +37,7 @@ body{
 .titulo{
     font-size: 32px;
     font-weight: 700;
-    color: #800000;
+    color: #8027aa;
     margin-bottom: 5px;
 }
 
@@ -61,13 +66,13 @@ body{
 /* Focus moderno */
 .form-control:focus,
 .form-select:focus{
-    border-color: #800000;
+    border-color: #8027aa;
     box-shadow: 0 0 0 3px rgba(128,0,0,0.15);
 }
 
 /* Botón estilo ecommerce */
 .btn-enviar{
-    background: #800000;
+    background: #c35bf3;
     color: white;
     
     border-radius: 10px;
@@ -89,6 +94,17 @@ textarea.form-control{
     resize: none;
 }
 .btn-enviar:hover{
-    background: #a00000;
+    background: #8027aa;
     transform: translateY(-2px);
+}
+
+/* footer */
+footer {
+  background-color: #8027aa;
+
+}
+
+footer p {
+
+  color: #ffffff !important;
 }
