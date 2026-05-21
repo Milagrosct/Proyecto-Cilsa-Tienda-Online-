@@ -1,13 +1,18 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Categoria - Artistica</title>
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="style/categoria2.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="Style/categoria2.css">
+    <title>Categoría - Artística</title>
 </head>
 <body>
+    
+<!-- Autor: Franco Ramirez (Persona 3 - Página de categoría 2 + modal) -->
+
+
 <!-- NAVBAR -->
 
 
@@ -24,81 +29,157 @@
     <div class="collapse navbar-collapse" id="menu">
       <ul class="navbar-nav ms-auto">
         <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
-            <li class="nav-item"><a class="nav-link" href="categoria1.html">Librería</a></li>
-            <li class="nav-item"><a class="nav-link" href="categoria2.html">Artística</a></li>
+        <!-- dropdown -->
+         <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Categorías
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="categoria1.html">Librería</a></li>
+            <li><a class="dropdown-item" href="categoria2.html">Artística</a></li>
+            <li><a class="dropdown-item" href="categoria3.html">Cotillón</a></li>
+          </ul>
+        </li>
         <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+      
+  <!-- buscador -->
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Buscar</button>
+      </form>
+        
+      <li class="nav-item person"><a class="nav-link" href="sesion.html"><i class="bi bi-person"></i></a></li>
+      <li class="nav-item"><a class="nav-link" href="carrito.html"><i class="bi bi-cart3"></i></a></li>
+
       </ul>
+   
     </div>
   </div>
 </nav>
 
-<div class="container-banner">
-<div class="titulo">
-    <h1>Categoría - Artística</h1>
-    <p>Productos para estudio y manualidades</p>
-</div>
-</div>
 
-<div class="container mt-5">
-    <div class="row">
+<!-- Banner -->
 
-        <div class="col-md-4 col-lg-2">
-            <div class="card">
-                <img src="Imagenes/carpetas-elastico.jpg" class="card-img-top">
-                <div class="card-body">
-                    <h5>Carpeta con elástico</h5>
-                    <p>$6.500</p>
-                    <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal1">Ver producto</button>
-                </div>
-            </div>
-        </div>
 
-        <div class="col-md-4 col-lg-2">
-            <div class="card">
-                <img src="Imagenes/papel-crepe.jpg" class="card-img-top">
-                <div class="card-body">
-                    <h5>Papel crepé</h5>
-                    <p>$1.200</p>
-                    <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal2">Ver producto</button>
-                </div>
-            </div>
-        </div>
 
-        <div class="col-md-4 col-lg-2">
-            <div class="card">
-                <img src="Imagenes/cuaderno-tapaDura.jpg" class="card-img-top">
-                <div class="card-body">
-                    <h5>Cuaderno tapa dura</h5>
-                    <p>$8.700</p>
-                    <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal3">Ver producto</button>
-                </div>
-            </div>
-        </div>
-
-        <div class="col-md-4 col-lg-2">
-            <div class="card">
-                <img src="Imagenes/pinceles-finos.jpg" class="card-img-top">
-                <div class="card-body">
-                    <h5>Pincel fino</h5>
-                    <p>$2.300</p>
-                    <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal4">Ver producto</button>
-                </div>
-            </div>
-        </div>
-
-        <div class="col-md-4 col-lg-2">
-            <div class="card">
-                <img src="Imagenes/plastilinas.jpg" class="card-img-top">
-                <div class="card-body">
-                    <h5>Plastilina unidad</h5>
-                    <p>$900</p>
-                    <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal5">Ver producto</button>
-                </div>
-            </div>
-        </div>
-
+  <div class="p-4 p-md-5 mb-4 text-white rounded bg-dark d-flex justify-content-center align-items-center text-center" id="banner-categoria">
+    <div class="col-12 col-md-8 px-0">
+      <h1 class="display-4 fst-italic titulo-categoria">Categoría - Artística</h1>
+      <p class="lead my-3"></p>
+      <p class="lead mb-0"><a href="#" class="text-white fw-bold"></a></p>
     </div>
-</div>
+  </div>
+
+<!-- CARDS -->
+  <div class="album py-5 bg-light">
+    <div class="container">
+
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <div class="col">
+          <div class="card shadow-sm">
+        <img src="./Imagenes/carpetas-elastico.jpg" class="card-img-top" alt="Producto cartuchera rosa de un piso con la frase 'fantastic'">
+            <div class="card-body">
+              <p class="card-text">Carpeta elástica</p>
+              <p class="card-text">$6.500</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button class="btn btn-primary me-2 btn-carrito">Agregar al carrito</button>
+                    <button type="button" class="btn btn-outline-secondary" data-bs-toggle="modal" data-bs-target="#modal1">
+                                        Ver producto
+                    </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="./Imagenes/papel-crepe.jpg" class="card-img-top" alt="">
+            <div class="card-body">
+              <p class="card-text">Papel crepe</p>
+              <p class="card-text">$2.500</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button class="btn btn-primary me-2 btn-carrito">Agregar al carrito</button>
+                    <button type="button" class="btn btn-outline-secondary"
+                        data-bs-toggle="modal"
+                        data-bs-target="#modal2">
+                          Ver producto
+                    </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+        <img src="./Imagenes/cuaderno-tapaDura.jpg" class="card-img-top" alt="Producto mochila negra y blanca con estampado ornamental">
+            <div class="card-body">
+              <p class="card-text">Cuaderno tapa dura A3</p>
+              <p class="card-text">$8.700,00</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button class="btn btn-primary me-2 btn-carrito">Agregar al carrito</button>
+<button type="button" class="btn btn-outline-secondary"
+data-bs-toggle="modal"
+data-bs-target="#modal3">
+  Ver producto
+</button>               
+ </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="./Imagenes/pinceles-finos.jpg" class="card-img-top" alt="Producto mochila marvel con estampado de los personajes de la saga">
+            <div class="card-body">
+              <p class="card-text">Pincel fino</p>
+              <p class="card-text">$2.300,00</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button class="btn btn-primary me-2 btn-carrito">Agregar al carrito</button>
+<button type="button" class="btn btn-outline-secondary"
+data-bs-toggle="modal"
+data-bs-target="#modal4">
+  Ver producto
+</button>                     
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="./Imagenes/plastilinas.jpg" class="card-img-top" alt="Plastilina">
+
+            <div class="card-body">
+              <p class="card-text">Plastilina unidad</p>
+              <p class="card-text">$900,00</p>
+              
+              <div class="d-flex justify-content-between align-items-center">
+                
+                <div class="btn-group">
+                   <button class="btn btn-primary me-2 btn-carrito">Agregar al carrito</button>
+<button type="button" class="btn btn-outline-secondary"
+data-bs-toggle="modal"
+data-bs-target="#modal5">
+  Ver producto
+</button>                     
+                </div>
+              
+              </div>
+            </div>
+          </div>
+        </div>
+        
+              </div>
+            </div>
+          </div>
+        </div>
+
 
 <!-- MODALES -->
 
@@ -165,8 +246,15 @@ Plastilina de colores vendida por unidad.
 </div>
 </div>
 </div>
-</div>
+</div> 
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
 
+
+<!-- FOOTER -->
 <footer class="text-muted py-5 ">
   <div class="container">
 
@@ -196,7 +284,7 @@ Plastilina de colores vendida por unidad.
   </div>
 </footer>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

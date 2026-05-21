@@ -29,3 +29,5 @@ $('.carousel-control-prev').on('click', function () {
     }
 
 });
+
+/* arreglar la parte de responsive del carousel, para que se adapte a diferentes tamaños de pantalla y ande. */
