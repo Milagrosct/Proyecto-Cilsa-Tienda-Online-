@@ -37,9 +37,55 @@ body {
               
 }
 
+/* NAVBAR */
+
 #navbar {
+  
+  background-color: #aa44d9 !important;
+
+  
+}
+#navbar .nav-link {
   color: #ffffff !important;
+}
+
+#navbar .nav-link:hover {
+  color: #5f1d67 !important;
+}
+/* ajustar solo el form dentro del navbar */
+nav#navbar .d-flex { margin-left: 0.75rem; gap: .5rem; }
+
+nav#navbar button.btn-outline-success {
+  background-color: transparent !important;
+  color: #ffffff !important;
+  border-color: #ffffff !important;
+}
+
+nav#navbar button.btn-outline-success:hover {
+  background-color: #ffffff !important;
+  color:#aa44d9  !important;
+  border-color: #ffffff !important;
+}
+.dropdown-menu {
+  background-color: #6e2690 !important;
+ 
+}
+.dropdown-item {
+  color: #ffffff !important;
+}
+.dropdown-item:hover {
   background-color: #8027aa !important;
+  color: #ffffff !important;
+}
+/* Focus moderno */
+.form-control:focus,
+.form-select:focus{
+    border-color: #8027aa;
+    box-shadow: 0 0 0 3px rgba(128,0,0,0.15);
+}
+/* ICONOS */
+.person {
+  padding-left: 7px;
 }
 
 
@@ -88,14 +134,29 @@ height: 23vw;
 
 .carousel-control-prev,
 .carousel-control-next {
-    background-color: #e1e1e1;
+    background-color: #aa44d9  !important;
     width: 6vh;
     height: 6vh;
     border-radius: 50%;
     top: 50%;
     transform: translateY(-50%);
 }
-
+/* BOTONES */
+.btn-primary {
+  background-color: #aa44d9  !important;
+  color: #ffffff !important;
+  border-color: #aa44d9  !important;
+}
+.btn-outline-secondary {
+  background-color: transparent !important;
+  color: #aa44d9  !important;
+  border-color: #aa44d9  !important;
+}
+.btn-outline-secondary:hover {
+  background-color: #512266  !important;
+  color: #ffffff !important;
+  border-color: #512266 !important;
+}
 .card-container {
 background-color: #f6e3ff;
 padding-bottom: 30px;

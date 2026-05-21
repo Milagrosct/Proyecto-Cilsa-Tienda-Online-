@@ -1,4 +1,61 @@
 
+body {
+  background-color: #f7f7f7 !important;
+}
+ .container-cards {
+  background-color:#f7f7f7!important;
+} 
+/* NAVBAR */
+
+#navbar {
+  
+  background-color: #aa44d9 !important;
+
+  
+}
+#navbar .nav-link {
+  color: #ffffff !important;
+}
+
+#navbar .nav-link:hover {
+  color: #5f1d67 !important;
+}
+/* ajustar solo el form dentro del navbar */
+nav#navbar .d-flex { margin-left: 0.75rem; gap: .5rem; }
+
+nav#navbar button.btn-outline-success {
+  background-color: transparent !important;
+  color: #ffffff !important;
+  border-color: #ffffff !important;
+}
+
+nav#navbar button.btn-outline-success:hover {
+  background-color: #ffffff !important;
+  color:#aa44d9  !important;
+  border-color: #ffffff !important;
+}
+.dropdown-menu {
+  background-color: #6e2690 !important;
+ 
+}
+.dropdown-item {
+  color: #ffffff !important;
+}
+.dropdown-item:hover {
+  background-color: #8027aa !important;
+  color: #ffffff !important;
+}
+/* Focus moderno */
+.form-control:focus,
+.form-select:focus{
+    border-color: #8027aa;
+    box-shadow: 0 0 0 3px rgba(128,0,0,0.15);
+}
+/* ICONOS */
+.person {
+  padding-left: 7px;
+}
+/* BANNER */
 
 #banner-categoria {
     position: relative;
@@ -30,15 +87,28 @@
     position: relative;
     z-index: 1;
 }
+/* 
+CARD BODY */
+.img-modal {
+  display: block;
+  margin: 0 auto;
+  max-width: 80%;
+  width: auto;
+  height: auto;
+}
 
-#navbar {
-  
-  background-color: #8027aa !important;
+/* Centrar imágenes dentro de modales y mantener responsivo */
+.modal-body img {
+  display: block;
+  margin: 0 auto;
+  max-width: 80%;
+  height: auto;
 }
 
 /* footer */
 footer {
-  background-color: #8027aa;
+  background-color: #aa44d9 ;
+  box-shadow: #000000 0px 1px 5px;
 
 }
 
@@ -47,7 +117,27 @@ footer p {
   color: #ffffff !important;
 }
 
+/* BOTON */
 .btn-carrito {
-  background-color: #8027aa !important;
+  background-color: #aa44d9  !important;
   color: #ffffff !important;
+  border-color: #aa44d9  !important;
+
+}
+
+.btn-outline-secondary {
+  background-color: transparent !important;
+  color: #aa44d9  !important;
+  border-color: #aa44d9  !important;
+}
+.btn-outline-secondary:hover {
+  background-color: #512266  !important;
+  color: #ffffff !important;
+  border-color: #512266 !important;
+}
+
+.btn-secondary {
+  background-color: #aa44d9  !important;
+  color: #ffffff !important;
+  border-color: #aa44d9  !important;
 }

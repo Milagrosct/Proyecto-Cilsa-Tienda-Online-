@@ -12,6 +12,8 @@
 <body>
 
 <!-- NAVBAR -->
+
+
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="navbar">
   <div class="container">
     <a class="navbar-brand" href="#">Mundo color</a>
@@ -25,10 +27,30 @@
     <div class="collapse navbar-collapse" id="menu">
       <ul class="navbar-nav ms-auto">
         <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
-        <li class="nav-item"><a class="nav-link" href="categoria1.html">Librería</a></li>
-            <li class="nav-item"><a class="nav-link" href="categoria2.html">Artística</a></li>
+        <!-- dropdown -->
+         <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Categorías
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="categoria1.html">Librería</a></li>
+            <li><a class="dropdown-item" href="categoria2.html">Artística</a></li>
+            <li><a class="dropdown-item" href="categoria3.html">Cotillón</a></li>
+          </ul>
+        </li>
         <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+      
+  <!-- buscador -->
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Buscar</button>
+      </form>
+        
+      <li class="nav-item person"><a class="nav-link" href="sesion.html"><i class="bi bi-person"></i></a></li>
+      <li class="nav-item"><a class="nav-link" href="carrito.html"><i class="bi bi-cart3"></i></a></li>
+
       </ul>
+   
     </div>
   </div>
 </nav>
@@ -108,7 +130,7 @@
                   <button type="button" class="btn btn-outline-secondary"
                     data-bs-toggle="modal"
                     data-bs-target="#modalMochilaPlanet">
-                    Ver
+                    Ver producto
                   </button>   
     <a href="" class="btn btn-primary">Agregar al carrito</a>
     
@@ -126,7 +148,7 @@
                <button type="button" class="btn btn-outline-secondary"
                     data-bs-toggle="modal"
                     data-bs-target="#modalrosa">
-                    Ver
+                    Ver producto
                   </button>  
     <a href="" class="btn btn-primary">Agregar al carrito</a>
   </div>
@@ -143,7 +165,7 @@
                <button type="button" class="btn btn-outline-secondary"
                     data-bs-toggle="modal"
                     data-bs-target="#modalMochilaDisney">
-                    Ver
+                    Ver producto
                   </button>  
     <a href="#" class="btn btn-primary">Agregar al carrito</a>
   </div>
@@ -160,7 +182,7 @@
                 <button type="button" class="btn btn-outline-secondary"
                     data-bs-toggle="modal"
                     data-bs-target="#modalBaires">
-                    Ver
+                    Ver producto
                   </button> 
     <a href="#" class="btn btn-primary">Agregar al carrito</a>
   </div>
@@ -178,7 +200,7 @@
                 <button type="button" class="btn btn-outline-secondary"
                     data-bs-toggle="modal"
                     data-bs-target="#modalFibrones">
-                    Ver
+                    Ver producto
                   </button> 
     <a href="#" class="btn btn-primary">Agregar al carrito</a>
   </div>

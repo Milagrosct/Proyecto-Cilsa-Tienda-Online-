@@ -8,12 +8,56 @@ body{
     
 }
 
-/* navbar */
+/* NAVBAR */
+
 #navbar {
+  
+  background-color: #aa44d9 !important;
+
+  
+}
+#navbar .nav-link {
   color: #ffffff !important;
-  background-color: #8027aa !important;
 }
 
+#navbar .nav-link:hover {
+  color: #5f1d67 !important;
+}
+/* ajustar solo el form dentro del navbar */
+nav#navbar .d-flex { margin-left: 0.75rem; gap: .5rem; }
+
+nav#navbar button.btn-outline-success {
+  background-color: transparent !important;
+  color: #ffffff !important;
+  border-color: #ffffff !important;
+}
+
+nav#navbar button.btn-outline-success:hover {
+  background-color: #ffffff !important;
+  color:#aa44d9  !important;
+  border-color: #ffffff !important;
+}
+.dropdown-menu {
+  background-color: #6e2690 !important;
+ 
+}
+.dropdown-item {
+  color: #ffffff !important;
+}
+.dropdown-item:hover {
+  background-color: #8027aa !important;
+  color: #ffffff !important;
+}
+/* Focus moderno */
+.form-control:focus,
+.form-select:focus{
+    border-color: #8027aa;
+    box-shadow: 0 0 0 3px rgba(128,0,0,0.15);
+}
+/* ICONOS */
+.person {
+  padding-left: 7px;
+}
 /* Contenedor */
 .contenedor-formulario{
     width: 100%;
