@@ -71,16 +71,21 @@
             ¿Tenés consultas sobre productos escolares o artículos de cotillón?
         </p>
 
-        <form>
+        <form id="formulario">
 
            <div class="row">
 
                 <div class="col-md-6 mb-3">
                     <label class="form-label">Nombre</label>
-                    <input type="text" id="nombre" class="form-control" name="nombre" minlength="2" maxlength="45" pattern="[a-zA-ZáéíóúüñÑ\s]*" placeholder="Tu nombre">
+                    <input  id="nombre" type="text" class="form-control" placeholder="Coloque su nombre" required minlength="3" maxlength="45" pattern="[a-zA-ZáéíóúüñÑ\s]*" required>
                 </div>
 
-                <div class="col-md-6 mb-3">
+                       <div class="col-md-6 mb-3">
+                    <label class="form-label">Apellido</label>
+                    <input id="apellido" type="text" class="form-control" required placeholder="Coloque su apellido" minlength="2" maxlength="45" pattern="[a-zA-ZáéíóúüñÑ\s]*">
+                </div>
+
+                <div class="mb-3">
                     <label class="form-label">Correo Electrónico</label>
                     <input type="email" id="email" class="form-control" name="email" maxlength="45" pattern="^[a-zA-Z0-9._-]+@[a-zA-Z0-9-]+\.[a-zA-Z]{2,}$" required placeholder="correo@ejemplo.com">
                 </div>
@@ -99,13 +104,18 @@
 
             <div class="mb-3">
     <label class="form-label">Mensaje</label>
-    <textarea class="form-control" rows="5" placeholder="Escribí tu mensaje"required></textarea>
+    <textarea class="form-control" rows="5" id="mensaje" placeholder="Escribí tu mensaje"required></textarea>
 </div>
 
             <button type="submit" class="btn btn-enviar w-100">
                 Enviar mensaje
             </button>
-
+            <!-- mensaje de exito -->
+             <br>
+             <br>
+            <div id="mensajeExito" class="alert alert-success text-center" role="alert" style="display: none;">
+                Mensaje enviado correctamente ✔
+            </div>
             
         </form>
 
@@ -143,6 +153,7 @@
   </div>
 </footer>
 <!-- script -->
+ <script src="js/contacto.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
