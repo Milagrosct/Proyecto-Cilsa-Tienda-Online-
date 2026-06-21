@@ -1,0 +1,154 @@
+body{
+    margin: 0;
+    min-height: 100vh;
+    background-image: url("../Imagenes/banners/fondo-contacto.jpg") !important;
+    background-size: cover;
+    background: linear-gradient(135deg, #802c7d, #fee2e2);
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+/* NAVBAR */
+
+#navbar {
+  
+  background-color: #aa44d9 !important;
+
+  
+}
+#navbar .nav-link {
+  color: #ffffff !important;
+}
+
+#navbar .nav-link:hover {
+  color: #5f1d67 !important;
+}
+/* ajustar solo el form dentro del navbar */
+nav#navbar .d-flex { margin-left: 0.75rem; gap: .5rem; }
+
+nav#navbar button.btn-outline-success {
+  background-color: transparent !important;
+  color: #ffffff !important;
+  border-color: #ffffff !important;
+}
+
+nav#navbar button.btn-outline-success:hover {
+  background-color: #ffffff !important;
+  color:#aa44d9  !important;
+  border-color: #ffffff !important;
+}
+.dropdown-menu {
+  background-color: #6e2690 !important;
+ 
+}
+.dropdown-item {
+  color: #ffffff !important;
+}
+.dropdown-item:hover {
+  background-color: #8027aa !important;
+  color: #ffffff !important;
+}
+/* Focus moderno */
+.form-control:focus,
+.form-select:focus{
+    border-color: #8027aa;
+    box-shadow: 0 0 0 3px rgba(128,0,0,0.15);
+}
+/* ICONOS */
+.person {
+  padding-left: 7px;
+}
+/* Contenedor */
+.contenedor-formulario{
+    width: 100%;
+    padding: 60px;
+}
+
+/* Card del formulario */
+.formulario{
+    max-width: 650px;
+    margin: auto;
+    background: white;
+    padding: 35px;
+
+    border-radius: 16px;
+    box-shadow: 0 12px 30px rgba(0,0,0,0.25);
+
+    text-align: left;
+}
+
+/* Título */
+.titulo{
+    font-size: 32px;
+    font-weight: 700;
+    color: #8027aa;
+    margin-bottom: 5px;
+}
+
+/* Subtítulo */
+.subtitulo{
+    color: #666;
+    margin-bottom: 25px;
+    font-size: 15px;
+}
+
+/* Labels */
+.form-label{
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+/* Inputs estilo moderno */
+.form-control,
+.form-select{
+    border-radius: 10px;
+    border: 1.5px solid #ddd;
+    padding: 10px;
+    transition: 0.3s;
+}
+
+/* Focus moderno */
+.form-control:focus,
+.form-select:focus{
+    border-color: #8027aa;
+    box-shadow: 0 0 0 3px rgba(128,0,0,0.15);
+}
+
+/* Botón estilo ecommerce */
+.btn-enviar{
+    background: #c35bf3;
+    color: white;
+    
+    border-radius: 10px;
+    font-weight: bold;
+    border: none;
+    transition: 0.3s;
+    padding: 8px 16px;   /* antes era más grande */
+    font-size: 14px;     /* texto más chico */
+    width: auto;         /* evita que ocupe todo el ancho */
+    display: inline-block;
+    
+}
+.form-label{
+    display: block;
+    margin-bottom: 6px;
+    font-weight: 600;
+}
+textarea.form-control{
+    resize: none;
+}
+.btn-enviar:hover{
+    background: #8027aa;
+    transform: translateY(-2px);
+}
+
+/* footer */
+footer {
+  background-color: #8027aa;
+
+}
+
+footer p {
+
+  color: #ffffff !important;
+}
